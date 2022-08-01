@@ -17,6 +17,6 @@ $ poetry install
 
 ### Check tasks
 ```shell
-$ poetry run pytest
+$ poetry run pytest --tb=line --no-header -vv --no-summary
 ```
 
